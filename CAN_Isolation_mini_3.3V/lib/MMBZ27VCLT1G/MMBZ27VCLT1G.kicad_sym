@@ -1,0 +1,115 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MMBZ27VCLT1G" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "D" (id 0) (at -7.62 5.08 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MMBZ27VCLT1G" (id 1) (at -7.62 -6.35 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "MMBZ27VCLT1G:SOT95P237X111-3N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "17" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "1.11mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "ON Semiconductor" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MMBZ27VCLT1G_0_0"
+      (polyline
+        (pts (xy 5.08 2.54) (xy 5.08 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -3.81) (xy 1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -2.54) (xy -1.27 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -1.905) (xy 1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -1.27) (xy -1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -2.54) (xy -1.27 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -2.54) (xy 1.27 -3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -2.54) (xy -1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy 1.27 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 -1.27) (xy 1.27 -1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -3.175) (xy 1.905 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 1.27) (xy 1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy -1.27 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 3.175) (xy 1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 3.81) (xy -1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 2.54) (xy -1.27 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 2.54) (xy 1.27 1.905)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 1.27 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.635 3.81) (xy 1.27 3.175)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 1.905) (xy 1.905 1.27)) (stroke (width 0.254))
+      )
+      (pin passive line (at -7.62 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 10.16 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
