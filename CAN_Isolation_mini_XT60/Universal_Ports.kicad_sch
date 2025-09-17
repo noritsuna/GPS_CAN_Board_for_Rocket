@@ -1841,6 +1841,12 @@
 		(uuid "a4f00ba7-f1d4-4946-98fb-799be13fb7e3")
 	)
 	(junction
+		(at 57.15 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8738b9f-dd12-44a4-ba4a-d998d612771f")
+	)
+	(junction
 		(at 143.51 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1887,12 +1893,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed14ffc8-1d08-4c00-bbf9-73807dfc9977")
-	)
-	(junction
-		(at 57.15 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6471f0e-50f1-40d8-b3e1-b4a20b98a0d3")
 	)
 	(junction
 		(at 58.42 91.44)
@@ -2029,6 +2029,16 @@
 			(type default)
 		)
 		(uuid "4de42bb1-f974-4d4a-8f59-887f8ed41c6d")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f43c83f-fd8e-467c-8a64-ce9838d52186")
 	)
 	(wire
 		(pts
@@ -2229,16 +2239,6 @@
 			(type default)
 		)
 		(uuid "8db9570d-3bf0-488f-a76d-61a34a042185")
-	)
-	(wire
-		(pts
-			(xy 57.15 78.74) (xy 57.15 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9936cb42-407b-45d0-8aba-dfa43c4f419d")
 	)
 	(wire
 		(pts
@@ -3625,72 +3625,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VP")
-		(at 147.32 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cb5e488-4514-4e92-885e-0daa1ea36267")
-		(property "Reference" "#PWR027"
-			(at 147.32 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 147.32 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 147.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a665210-b2e7-48b3-9367-4c579ce0ff20")
-		)
-		(instances
-			(project "CAN_Isolation_mini"
-				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/54dda61f-9174-4ddd-af5e-6bc53d2182b0"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND1")
 		(at 64.77 35.56 0)
 		(unit 1)
@@ -4439,6 +4373,72 @@
 			(project "CAN_Isolation_mini"
 				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/54dda61f-9174-4ddd-af5e-6bc53d2182b0"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VP")
+		(at 147.32 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c4be910-4280-4eee-9cc0-d7644dc7a915")
+		(property "Reference" "#PWR027"
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 147.32 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11a2e211-d6a2-4fdc-916f-4525812d6cd0")
+		)
+		(instances
+			(project "CAN_Isolation_mini"
+				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/54dda61f-9174-4ddd-af5e-6bc53d2182b0"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
-%TF.CreationDate,2025-09-15T13:15:53+09:00*%
+%TF.CreationDate,2025-09-18T02:49:40+09:00*%
 %TF.ProjectId,CAN_Isolation,43414e5f-4973-46f6-9c61-74696f6e2e6b,Ver.1.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.4) date 2025-09-15 13:15:53*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-09-18 02:49:40*
 %MOMM*%
 %LPD*%
 G01*
@@ -68,7 +68,7 @@ X96982095Y-89294905D03*
 %TD*%
 D12*
 %TO.C,REF\u002A\u002A*%
-X148657095Y-72794905D03*
+X143657095Y-72794905D03*
 %TD*%
 D13*
 %TO.C,U2*%
@@ -477,7 +477,7 @@ X136577095Y-99094905D03*
 %TD*%
 D12*
 %TO.C,REF\u002A\u002A*%
-X148657095Y-122794905D03*
+X143657095Y-122794905D03*
 %TD*%
 %TO.C,REF\u002A\u002A*%
 X203657095Y-72794905D03*
