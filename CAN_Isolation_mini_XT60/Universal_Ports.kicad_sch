@@ -11,6 +11,217 @@
 		(company "ISHI-Kai")
 	)
 	(lib_symbols
+		(symbol "B520CQ-13-F:B520CQ-13-F"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.2898 1.9081 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B520CQ-13-F"
+				(at -2.2921 -3.4382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B520CQ-13-F:DIOM7959X250N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Diodes Inc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B520CQ-13-F_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.016) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
@@ -1528,12 +1739,6 @@
 		(uuid "1120a8ab-3c39-451b-ae8d-8efdbf79e0f2")
 	)
 	(junction
-		(at 57.15 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "182f4a73-69de-47fb-a9f1-542d5f7b90c3")
-	)
-	(junction
 		(at 127 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1562,6 +1767,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46caf92d-30f5-4e75-a643-87970ac38b67")
+	)
+	(junction
+		(at 54.61 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "682a7a84-e2e3-4a75-baa5-178a89fb4020")
 	)
 	(junction
 		(at 93.98 45.72)
@@ -1610,12 +1821,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9deb2b80-7e92-4e2f-bbf1-1ce3f55beb88")
-	)
-	(junction
-		(at 54.61 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0ef5f8c-e3d5-41c7-873c-1a9b190d8371")
 	)
 	(junction
 		(at 127 31.75)
@@ -1682,6 +1887,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed14ffc8-1d08-4c00-bbf9-73807dfc9977")
+	)
+	(junction
+		(at 57.15 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6471f0e-50f1-40d8-b3e1-b4a20b98a0d3")
 	)
 	(junction
 		(at 58.42 91.44)
@@ -1798,16 +2009,6 @@
 			(type default)
 		)
 		(uuid "294be37e-a5cc-4415-9117-b1e96d73138e")
-	)
-	(wire
-		(pts
-			(xy 57.15 78.74) (xy 57.15 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ebe7589-0685-4b38-9af2-5675a88956ac")
 	)
 	(wire
 		(pts
@@ -2001,16 +2202,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 144.78) (xy 54.61 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d7750d7-79ee-4d9f-b425-f889fbcb7411")
-	)
-	(wire
-		(pts
 			(xy 60.96 48.26) (xy 60.96 50.8)
 		)
 		(stroke
@@ -2038,6 +2229,16 @@
 			(type default)
 		)
 		(uuid "8db9570d-3bf0-488f-a76d-61a34a042185")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 57.15 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9936cb42-407b-45d0-8aba-dfa43c4f419d")
 	)
 	(wire
 		(pts
@@ -2138,6 +2339,16 @@
 			(type default)
 		)
 		(uuid "b6f8dff5-d040-478c-a7d5-2b87d3e24899")
+	)
+	(wire
+		(pts
+			(xy 54.61 132.08) (xy 54.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb076dea-a209-4d9c-91e2-0a9db0d6cd6c")
 	)
 	(wire
 		(pts
@@ -3340,72 +3551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VP")
-		(at 147.32 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b1025d9-470a-46d7-bd15-159903715d51")
-		(property "Reference" "#PWR027"
-			(at 147.32 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VP"
-			(at 147.32 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VP\""
-			(at 147.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d3119f8-31be-4f4c-9f71-0b63ed2b970b")
-		)
-		(instances
-			(project "CAN_Isolation_mini"
-				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/54dda61f-9174-4ddd-af5e-6bc53d2182b0"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 138.43 48.26 0)
 		(unit 1)
@@ -3480,6 +3625,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VP")
+		(at 147.32 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cb5e488-4514-4e92-885e-0daa1ea36267")
+		(property "Reference" "#PWR027"
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 147.32 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 147.32 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a665210-b2e7-48b3-9367-4c579ce0ff20")
+		)
+		(instances
+			(project "CAN_Isolation_mini"
+				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/54dda61f-9174-4ddd-af5e-6bc53d2182b0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND1")
 		(at 64.77 35.56 0)
 		(unit 1)
@@ -3547,7 +3758,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 54.61 139.7 0)
+		(at 54.61 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3556,7 +3767,7 @@
 		(fields_autoplaced yes)
 		(uuid "51cc17ee-e2d0-4b65-89d1-ceee190c3720")
 		(property "Reference" "#PWR031"
-			(at 54.61 143.51 0)
+			(at 54.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3565,7 +3776,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 54.61 134.62 0)
+			(at 54.61 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +3784,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 139.7 0)
+			(at 54.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 139.7 0)
+			(at 54.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3802,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 54.61 139.7 0)
+			(at 54.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,6 +4710,87 @@
 			(project "CAN_Isolation_mini"
 				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/54dda61f-9174-4ddd-af5e-6bc53d2182b0"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B520CQ-13-F:B520CQ-13-F")
+		(at 54.61 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6c33256-950b-4bd5-8003-f47ff3a54a37")
+		(property "Reference" "D3"
+			(at 57.15 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B520CQ-13-F"
+			(at 57.15 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAN_Isolation:DIOM7959X250N"
+			(at 54.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc"
+			(at 54.61 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "44af795e-dfd1-4bec-96e4-5e8a8f56e7b7")
+		)
+		(pin "C"
+			(uuid "25e54ac5-f8ac-410f-8b5a-feae1fec6168")
+		)
+		(instances
+			(project ""
+				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/54dda61f-9174-4ddd-af5e-6bc53d2182b0"
+					(reference "D3")
 					(unit 1)
 				)
 			)
