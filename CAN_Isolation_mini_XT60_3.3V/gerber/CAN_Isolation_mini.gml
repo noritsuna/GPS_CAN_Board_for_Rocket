@@ -1,11 +1,11 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
-%TF.CreationDate,2025-09-18T03:28:02+09:00*%
+%TF.CreationDate,2025-09-18T10:41:45+09:00*%
 %TF.ProjectId,CAN_Isolation_mini,43414e5f-4973-46f6-9c61-74696f6e5f6d,Ver.1.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 9.0.4) date 2025-09-18 03:28:02*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-09-18 10:41:45*
 %MOMM*%
 %LPD*%
 G01*

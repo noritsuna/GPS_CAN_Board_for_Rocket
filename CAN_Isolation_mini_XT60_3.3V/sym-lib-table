@@ -25,4 +25,5 @@
   (lib (name "S5B-XH-A")(type "KiCad")(uri "${KIPRJMOD}/lib/S5B_XH_A/S5B-XH-A.kicad_sym")(options "")(descr ""))
   (lib (name "XT60PW-F")(type "KiCad")(uri "${KIPRJMOD}/lib/XT60PW-F/XT60PW-F.kicad_sym")(options "")(descr ""))
   (lib (name "B520CQ-13-F")(type "KiCad")(uri "${KIPRJMOD}/lib/B520CQ_13_F/B520CQ-13-F.kicad_sym")(options "")(descr ""))
+  (lib (name "B2PS-VH")(type "KiCad")(uri "${KIPRJMOD}/lib/B2PS-VH/B2PS-VH.kicad_sym")(options "")(descr ""))
 )

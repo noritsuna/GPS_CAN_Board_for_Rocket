@@ -11,6 +11,214 @@
 		(company "ISHI-Kai")
 	)
 	(lib_symbols
+		(symbol "B2PS-VH:B2PS-VH"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -1.27 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B2PS-VH"
+				(at -1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B2PS-VH:B2PS-VH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "JST Sales"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Connector Header Through Hole, Right Angle 2 position 0.156 (3.96mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2PS-VH/JST/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "B2PS-VH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/B2PS-VH/JST/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B2PS-VH_0_0"
+				(rectangle
+					(start -1.27 -5.08)
+					(end 3.81 2.54)
+					(stroke
+						(width 0.4064)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.6096)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -732,7 +940,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "S4B-XH-A:S4B-XH-A"
+		(symbol "S2B-XH-A:S2B-XH-A"
 			(pin_names
 				(offset 1.016)
 			)
@@ -740,7 +948,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -6.85 7.62 0)
+				(at -6.85 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -748,8 +956,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "S4B-XH-A"
-				(at -6.35 -7.62 0)
+			(property "Value" "S2B-XH-A"
+				(at -6.35 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -757,7 +965,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "S4B-XH-A:JST_S4B-XH-A"
+			(property "Footprint" "S2B-XH-A:JST_S2B-XH-A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -795,27 +1003,16 @@
 					(hide yes)
 				)
 			)
-			(symbol "S4B-XH-A_0_0"
+			(symbol "S2B-XH-A_0_0"
 				(rectangle
-					(start -6.35 -5.08)
-					(end 6.35 7.62)
+					(start -6.35 -2.54)
+					(end 6.35 5.08)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -5.715 4.7625)
-					(end -4.1275 5.3975)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -840,19 +1037,8 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start -5.715 -2.8575)
-					(end -4.1275 -2.2225)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
-					(at -10.16 5.08 0)
+					(at -10.16 2.54 0)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -870,7 +1056,7 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 2.54 0)
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -880,42 +1066,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3061,6 +3211,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 173.99) (xy 49.53 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d052fa1-de7c-4d1c-951b-39e8237e88d3")
+	)
+	(wire
+		(pts
 			(xy 168.91 85.09) (xy 189.23 85.09)
 		)
 		(stroke
@@ -3121,6 +3281,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 162.56) (xy 49.53 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "262d9aba-7cdb-4f75-97c6-2e1368e4683d")
+	)
+	(wire
+		(pts
 			(xy 78.74 133.35) (xy 81.28 133.35)
 		)
 		(stroke
@@ -3128,16 +3298,6 @@
 			(type default)
 		)
 		(uuid "33128137-275a-45ed-9b9b-ac70c64d7f3c")
-	)
-	(wire
-		(pts
-			(xy 43.18 167.64) (xy 53.34 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34083ade-207a-489f-ae41-079551b03793")
 	)
 	(wire
 		(pts
@@ -3361,16 +3521,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 170.18) (xy 53.34 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a7c7ab7-73c0-4a40-83b0-2372fc2d8c22")
-	)
-	(wire
-		(pts
 			(xy 76.2 140.97) (xy 76.2 143.51)
 		)
 		(stroke
@@ -3391,13 +3541,13 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 162.56) (xy 53.34 162.56)
+			(xy 43.18 165.1) (xy 49.53 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cc6d75b-a8a0-471c-acfd-0284f567eb54")
+		(uuid "7d07455a-bdf6-4adb-91ff-3e524e4b693e")
 	)
 	(wire
 		(pts
@@ -3641,16 +3791,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 165.1) (xy 53.34 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daf64172-18df-45f3-9362-ac22cddd1b15")
-	)
-	(wire
-		(pts
 			(xy 114.3 53.34) (xy 121.92 53.34)
 		)
 		(stroke
@@ -3741,6 +3881,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 171.45) (xy 49.53 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f372db21-5284-460e-a720-0a8b2bc3f0c6")
+	)
+	(wire
+		(pts
 			(xy 30.48 119.38) (xy 36.83 119.38)
 		)
 		(stroke
@@ -3751,7 +3901,7 @@
 	)
 	(global_label "CAN_H"
 		(shape bidirectional)
-		(at 43.18 165.1 180)
+		(at 43.18 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3761,7 +3911,7 @@
 		)
 		(uuid "124b2ccc-8e4f-4d87-8432-cd233b1b606f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.0963 165.1 0)
+			(at 33.0963 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +3923,7 @@
 	)
 	(global_label "BAT_GND"
 		(shape output)
-		(at 43.18 170.18 180)
+		(at 43.18 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3783,7 +3933,7 @@
 		)
 		(uuid "191d2940-a417-4b07-9507-bce54d07198b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.0305 170.18 0)
+			(at 32.0305 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3945,7 @@
 	)
 	(global_label "CAN_L"
 		(shape bidirectional)
-		(at 43.18 167.64 180)
+		(at 43.18 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3805,7 +3955,7 @@
 		)
 		(uuid "338a194f-f2b2-4a48-9c12-331e738f5d64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.3987 167.64 0)
+			(at 33.3987 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,6 +4441,157 @@
 			(project ""
 				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/7e4d328d-cac9-4e09-9774-03494cf924e9"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "B2PS-VH:B2PS-VH")
+		(at 57.15 165.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e844352-9671-4fb0-a64e-95bdc804220a")
+		(property "Reference" "X1"
+			(at 59.69 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B2PS-VH"
+			(at 59.69 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAN_Isolation:B2PS-VH"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Connector Header Through Hole, Right Angle 2 position 0.156 (3.96mm)"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/B2PS-VH/JST/view-part/?ref=snap"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "B2PS-VH"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/B2PS-VH/JST/view-part/?ref=eda"
+			(at 57.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e93a2c13-20ca-4970-879a-f79872fd82a5")
+		)
+		(pin "2"
+			(uuid "177a0d0b-9f80-4e77-b554-ed7710f0ec59")
+		)
+		(instances
+			(project ""
+				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/7e4d328d-cac9-4e09-9774-03494cf924e9"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -5110,92 +5411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "S4B-XH-A:S4B-XH-A")
-		(at 63.5 167.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8837aae3-d7fc-4d0c-8067-b3ff685c630d")
-		(property "Reference" "J1"
-			(at 71.12 165.0999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S4B-XH-A"
-			(at 71.12 167.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CAN_Isolation:JST_S4B-XH-A"
-			(at 63.5 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "JST"
-			(at 63.5 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb3ddc07-221d-4982-be10-1be71b5a16db")
-		)
-		(pin "2"
-			(uuid "62c0df75-f4f4-4d13-aa37-c05bdc0f8e63")
-		)
-		(pin "3"
-			(uuid "67529ea3-434e-483b-bf11-8d4f3d000a5d")
-		)
-		(pin "4"
-			(uuid "9fbd6855-6e7f-4c9d-9bac-249774fdd276")
-		)
-		(instances
-			(project ""
-				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/7e4d328d-cac9-4e09-9774-03494cf924e9"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 173.99 140.97 0)
 		(unit 1)
@@ -5810,6 +6025,87 @@
 			(project "CAN_Isolation"
 				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/7e4d328d-cac9-4e09-9774-03494cf924e9"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "S2B-XH-A:S2B-XH-A")
+		(at 59.69 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da5247ff-ff1c-43a9-8132-332cb422739f")
+		(property "Reference" "J1"
+			(at 67.31 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "S2B-XH-A"
+			(at 67.31 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAN_Isolation:JST_S2B-XH-A"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at 59.69 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29a3f625-0b4e-40bb-a0bb-244c5d48ec50")
+		)
+		(pin "1"
+			(uuid "c2bfe2f9-237d-431f-a1f4-698f0e58bcc2")
+		)
+		(instances
+			(project "CAN_Isolation_mini"
+				(path "/d188d587-a283-4d42-bf18-6e85dcc02a49/7e4d328d-cac9-4e09-9774-03494cf924e9"
+					(reference "J1")
 					(unit 1)
 				)
 			)
